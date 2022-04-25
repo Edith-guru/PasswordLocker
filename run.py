@@ -5,9 +5,12 @@ def main():
     while True:
         print('Welcome to Password Locker!')
         print('\n')
-        print("Select a code to navigate through: to create a new user use 'nu: To login to your account 'lg or 'ex' to exit section")
+        print("Select a short code to navigate through: to create a new user use 'nu: To login to your account 'lg or 'ex' to exit section")
         short_code = input().lower()
         print('\n')
+        
+        
+        # creating new user using the short code 
         
         if short_code == 'nu':
             print('Create Username')
@@ -69,6 +72,8 @@ def main():
         else:
             print('Enter valid code to continue')
             
+            
+# ensures the main function is executed everytime the file is run
 if __name__ == '__main__':
     main()
             
