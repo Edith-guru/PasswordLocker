@@ -1,5 +1,5 @@
 import random
-From user import user
+from user import user
 
 def main():
     while True:
@@ -52,6 +52,23 @@ def main():
             default_user_password = input()
             print('\n')
             
-    
+            while default_user_name != 'testuser' or default_user_password != '09876':
+                print("Wrong Username or Password. Username 'testuser' and password '09876'")
+                print("Enter Username")
+                default_user_name = input()
+                print('Enter Password')
+                default_user_password = input()
+                print('\n')
+            else:
+                print('Login Success!')
+                print('\n')
+                print('\n')
                 
+        elif short_code == 'ex':
+            break
+        else:
+            print('Enter valid code to continue')
+            
+if __name__ == '__main__':
+    main()
             
