@@ -21,12 +21,9 @@ _generate password
 Python 3.8
 ## Behavior Driven Development
 Using short code provided.
-- upon input cc, the out put prompt user to sign up by typing name and password.
-- upon input ca, the out put prompt user to input the account name and password to store.
-- upon input gp, the out put generates automatic password to user.
-- upon input fa, the out put prompt user to search for an existng pasword account.
-- upon input da, the out put prompt user to display existing password account.
-- upon input ex, the out put prompt user to exist/logout.
+- choose SU or LG to start
+- choose LG TO login to ypur account
+- after launch choose VC to view list of created accounts.
 
 ## Support and contact details
 edithnesa@gmail.com 
